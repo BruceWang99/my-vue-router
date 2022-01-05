@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",
@@ -26,14 +27,10 @@
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
-    "root": true,
+    "root": false,
     "env": {
-      "node": true
+      "node": false
     },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/standard"
-    ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
